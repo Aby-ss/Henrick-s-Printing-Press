@@ -1,2 +1,2 @@
-# Henrick-s-Printing-Press
-🖨 Collection of files for Henrick's 3D Printing Press website
+# Henrik-s-Printing-Press
+🖨 Collection of files for Henrik's 3D Printing Press website
