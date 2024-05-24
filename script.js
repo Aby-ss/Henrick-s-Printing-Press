@@ -11,3 +11,10 @@ app2.load('https://prod.spline.design/YmD5GmNpdV1D0Ghg/scene.splinecode');
 const canvas3 = document.getElementById('printer');
 const app3 = new Application(canvas3);
 app3.load('https://prod.spline.design/XJtOO2dlv7BaC-Vc/scene.splinecode');
+
+document.getElementById("buttondown").onclick = function() {
+    window.scrollBy({
+       top: 500, // Scroll down by 500 pixels
+       behavior: 'smooth' // Smooth scroll
+    });
+  }

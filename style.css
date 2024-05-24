@@ -8,6 +8,10 @@ body {
     font-family: 'Poppins', sans-serif; /* Optional: sets a default font */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Ensuring all headings are black */
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
@@ -89,7 +93,14 @@ section {
     background-color: #FFFF;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-top: -100px;
+}
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 5px); /* Adjust the value to position the image horizontally */
+    transform: translateY(30%);
+    z-index: 1; /* Ensure it's above other content */
 }
 
 /* Header styling */
@@ -116,8 +127,6 @@ section {
     width: 18%; /* Adjust as needed */
     padding: 20px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     border: 1px solid #ccc; /* Light grey border */
     border-radius: 10px; /* Rounded corners */
     background-color: #f9f9f9; /* Light background */
@@ -146,12 +155,12 @@ section {
     align-items: center;
     justify-content: center;
     height: 200vh;
-    background-color: #f5f5f5;
+    margin-top: -400px;
 }
 
 .coloured-box {
     width: 500px;
-    height: 700px;
+    height:450px;
     margin: 10px;
     border-radius: 10px;
     background-color: #FF595E;
@@ -165,7 +174,7 @@ section {
     order: -1;
 }
 
-.coloured-box:nth-child(3) {
+.coloured-box:nth-child(1) {
     background-color: #1982C4;
     margin-right: 900px;
 }
@@ -176,7 +185,7 @@ section {
     align-items: center;
     height: 100vh;
     background-color: #f5f5f5;
-    margin-top: 150px;
+    margin-top: 450px;
 }
 
 .price-box {
@@ -231,8 +240,8 @@ section {
     left: 0;
     width: 50vw;
     height: 100vh;
-    margin-top: -3400px;
-    margin-left: -700px;
+    margin-top: -2400px;
+    margin-left: 40px;
     align-content: center;
 }
 
@@ -242,12 +251,66 @@ section {
     left: 0;
     width: 50vw;
     height: 100vh;
-    margin-top: -5700px;
-    margin-left: -700px;
+    margin-top: -1400px;
+    margin-left: 40px;
     align-content: center;
 }
 
 #box {
     width: 100%;
     height: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ddd; /* Grey background */
+    padding: 90px 80px; /* Increased padding for more vertical height */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    margin-top: 2000px;
+}
+
+.footer .company-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .contact-info,
+.footer .site-links {
+    margin-bottom: 20px;
+}
+
+.footer .contact-info p,
+.footer .site-links a {
+    margin: 5px 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer .site-links a:hover {
+    text-decoration: underline;
+}
+
+.scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8AC926;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
