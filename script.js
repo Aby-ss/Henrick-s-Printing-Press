@@ -8,3 +8,7 @@ const canvas2 = document.getElementById('box');
 const app2 = new Application(canvas2);
 app2.load('https://prod.spline.design/YmD5GmNpdV1D0Ghg/scene.splinecode');
 
+const canvas3 = document.getElementById('printer');
+const app3 = new Application(canvas3);
+app3.load('https://prod.spline.design/XJtOO2dlv7BaC-Vc/scene.splinecode');
+

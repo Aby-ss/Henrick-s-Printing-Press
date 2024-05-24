@@ -219,7 +219,7 @@ section {
     width: 50vw;
     height: 100vh;
     margin-top: -800px;
-    margin-left: -800px;
+    margin-left: -900px;
 }
 
 .box-cont {
@@ -229,6 +229,17 @@ section {
     width: 50vw;
     height: 100vh;
     margin-top: -2050px;
+    margin-left: 40px;
+    align-content: center;
+}
+
+.printer-cont {
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    margin-top: -1700px;
     margin-left: 40px;
     align-content: center;
 }
