@@ -14,7 +14,7 @@ app3.load('https://prod.spline.design/XJtOO2dlv7BaC-Vc/scene.splinecode');
 
 document.getElementById("buttondown").onclick = function() {
     window.scrollBy({
-       top: 800, // Scroll down by 500 pixels
+       top: 851, // Scroll down by 500 pixels
        behavior: 'smooth' // Smooth scroll
     });
   }

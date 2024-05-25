@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 body {
     background-color: #F7F7F7; /* Off-white background */
@@ -305,7 +305,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -150px;
+    margin-top: -450px;
 }
 
 .scroll-button {
@@ -317,7 +317,8 @@ section {
     border: 3px solid transparent; /* Transparent border to use with border-image */
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
-    z-index: 2;
+    z-index: 20;
+    margin-bottom: 200px;
 }
 
 .scroll-button:hover {
