@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+body {
+    background-color: #1b1b1b; /* Off-white background */
+    color: #ececec; /* Black text for headings and paragraphs */
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Optional: sets a default font */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ensuring all headings are black */
+h1, h2, h3, h4, h5, h6 {
+    color: #ececec;
+}
+
+/* Ensuring all paragraphs are black */
+p {
+    color: #ececec;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
