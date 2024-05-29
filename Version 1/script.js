@@ -17,4 +17,4 @@ document.getElementById("buttondown").onclick = function() {
        top: 851, // Scroll down by 500 pixels
        behavior: 'smooth' // Smooth scroll
     });
-  }
+}
